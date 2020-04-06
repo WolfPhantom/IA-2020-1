@@ -21,7 +21,7 @@ grafo=[[(1,374),(7,253),(3,329)],
        ]
        
     
-def FirstBest(grafo,inicio):
+def BFS(grafo,inicio):
     camino=[]
     camino.append(inicio)
     minimo=999
@@ -36,6 +36,6 @@ def FirstBest(grafo,inicio):
         camino.append(siguiente)   
     print(camino)
 for i in range(0,20):
-    FirstBest(grafo,i)   
+    BFS(grafo,i)   
 
         
