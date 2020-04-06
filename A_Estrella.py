@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  1 18:35:39 2020
 
-@author: USER
-"""
 
 
 grafo=[[(1,75),(7,140),(3,118)],
